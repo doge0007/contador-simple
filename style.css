@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: burlywood;
+    width: 100%;
+
+}
+.main {
+    text-align: center;
+    margin: 100px auto;
+    font-size: 2em;
+    padding: 40px;
+    width: 50%;
+    min-width: 20%;
+}
+
+.main #mostrarNumero {
+    font-size: 3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+}
+
+.boton {
+    padding: 10px 20px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8em;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    background-color: chocolate;
+}
+
+.boton:hover {
+    background-color: black;
+    color: beige;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.style {
+    display: inline-flex;
+    flex-flow: column;
+}
